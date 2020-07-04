@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&family=Holtwood+One+SC&family=Orbitron:wght@500&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Ubuntu', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.logo {
+  font-family: 'Holtwood One SC', serif;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.nav {
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  padding-top: 20px;
+  background-color: white;
+  z-index: 1;
+}
+
+.navbar {
+  display: flex;
+  padding: 0 4em 0 6em;
+  position: relative;
+}
+
+.nav-list {
+  margin-left: auto;
+  font-weight: bold;
+  display: flex;
+  list-style-type: none;
+  padding-top: 11px;
+}
+
+.list-item {
+  padding: 10px 2em;
+  text-decoration: none;
+}
+
+.navbar-btn {
+  visibility: hidden;
+  position: absolute;
+  z-index: 1;
+}
+
+.sidenav {
+  width: 30vw;
+  height: 100vh;
+  z-index: 2;
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: white;
+  padding-top: 2em;
+}
+
+@media only screen and (max-width: 660px) {
+  .nav-list {
+    visibility: hidden;
+  }
+
+  .list-item {
+    font-weight: bold;
+  }
+
+  .sidenav-list {
+    list-style-type: none;
+  }
+
+  .sidenav-list > li {
+    padding: 15px 0;
+  }
+
+  .sidenavbar-btn {
+    visibility: visible;
+    height: 35px;
+    width: 35px;
+    color: black;
+    background-color: white;
+    border: none;
+  }
+
+  .navbar {
+    display: flex;
+    padding: 0 4em 0 6em;
+    position: relative;
+  }
+
+  .navbar-btn {
+    visibility: visible;
+    height: 35px;
+    width: 35px;
+    color: black;
+    background-color: white;
+    border: none;
+    position: absolute;
+    right: 40px;
+  }
+}
+
+@media only screen and (min-width: 661px) {
+  .sidenav {
+    visibility: hidden;
+  }
+}
+
+.container {
+  padding: 0 6em;
+  margin-top: 150px;
+}
+
+.project-thumbnails {
+  display: inline-block;
+}
+
+.project-thumbnails > .thumbnail {
+  margin: 10px;
+}
+
+.contact {
+  margin-bottom: 10px;
+}
+
+.contact > .contact-icon {
+  margin-left: 20px;
+  margin-right: 20px;
+  font-size: 30px;
+}
+
+footer {
+  text-align: center;
+  padding-top: 2em;
+  padding-bottom: 1em;
+}
+
+footer > small {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 11px;
+}
+
+.project {
+  margin-bottom: 50px;
+}
+
+@media only screen and (max-width: 590px) {
+  .container {
+      padding: 0 40px;
+  }
+
+  .navbar {
+    padding-left: 40px;
+  }
+}
+
+@media only screen and (max-width: 750px) {
+  .project {
+    overflow-x: scroll;
+  }
+}
+
+@media only screen and (max-width: 365px) {
+  .container {
+    padding: 0 30px;
+  }
+
+  .sidenav {
+    width: 40vw;
+  }
+}

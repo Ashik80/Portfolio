@@ -1,0 +1,41 @@
+.image-view {
+    white-space: nowrap;
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
+
+.image-view::-webkit-scrollbar {
+    display: none;
+}
+
+.photo-container {
+    display: inline;
+    margin-right: 30px;
+}
+
+.project-info {
+    margin-top: 70px;
+    padding: 40px 60px 60px;
+    background-color: #e0e0de;
+    border-left: 10px solid #6317a9;
+}
+
+.project-info > h1 {
+    margin-bottom: 50px;
+}
+
+@media only screen and (max-width: 600px) {
+    .project-info {
+        padding: 30px 40px 40px;
+    }
+}
+
+@media only screen and (max-width: 370px) {
+    .project-info {
+        padding: 20px 30px 30px;
+    }
+
+    .project-info > h1 {
+        font-size: 25px;
+    }
+}
