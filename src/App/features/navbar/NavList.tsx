@@ -8,9 +8,9 @@ const NavList = () => {
         <Fragment>
             <li className='navmargin'>
                 <NavLink
-                    to='/Portfolio'
+                    to='/Portfolio/'
                     className='list-item'
-                    style={location.pathname === '/Portfolio' ? { color: 'grey' } : { color: 'black' }}>Projects
+                    style={location.pathname === '/Portfolio/' ? { color: 'grey' } : { color: 'black' }}>Projects
                 </NavLink>
             </li>
             <li className='navmargin'>
