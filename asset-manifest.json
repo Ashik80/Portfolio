@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/static/css/main.c1a9844e.chunk.css",
-    "main.js": "/static/js/main.72558cd0.chunk.js",
-    "main.js.map": "/static/js/main.72558cd0.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.a1207983.js",
-    "runtime-main.js.map": "/static/js/runtime-main.a1207983.js.map",
-    "static/js/2.38c1df37.chunk.js": "/static/js/2.38c1df37.chunk.js",
-    "static/js/2.38c1df37.chunk.js.map": "/static/js/2.38c1df37.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.97effffcab51e3d987397b8252577cd6.js": "/precache-manifest.97effffcab51e3d987397b8252577cd6.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/main.c1a9844e.chunk.css.map": "/static/css/main.c1a9844e.chunk.css.map",
-    "static/js/2.38c1df37.chunk.js.LICENSE.txt": "/static/js/2.38c1df37.chunk.js.LICENSE.txt",
-    "static/media/ashik.jpg": "/static/media/ashik.d45df73d.jpg",
-    "static/media/development.jpg": "/static/media/development.8d17a17a.jpg",
-    "static/media/palette.jpg": "/static/media/palette.b144afc7.jpg"
+    "main.css": "/Portfolio/static/css/main.c1a9844e.chunk.css",
+    "main.js": "/Portfolio/static/js/main.07283e2a.chunk.js",
+    "main.js.map": "/Portfolio/static/js/main.07283e2a.chunk.js.map",
+    "runtime-main.js": "/Portfolio/static/js/runtime-main.bcfc9a4f.js",
+    "runtime-main.js.map": "/Portfolio/static/js/runtime-main.bcfc9a4f.js.map",
+    "static/js/2.38c1df37.chunk.js": "/Portfolio/static/js/2.38c1df37.chunk.js",
+    "static/js/2.38c1df37.chunk.js.map": "/Portfolio/static/js/2.38c1df37.chunk.js.map",
+    "index.html": "/Portfolio/index.html",
+    "precache-manifest.1bdda008ff35c77d0400af147f28945c.js": "/Portfolio/precache-manifest.1bdda008ff35c77d0400af147f28945c.js",
+    "service-worker.js": "/Portfolio/service-worker.js",
+    "static/css/main.c1a9844e.chunk.css.map": "/Portfolio/static/css/main.c1a9844e.chunk.css.map",
+    "static/js/2.38c1df37.chunk.js.LICENSE.txt": "/Portfolio/static/js/2.38c1df37.chunk.js.LICENSE.txt",
+    "static/media/ashik.jpg": "/Portfolio/static/media/ashik.d45df73d.jpg",
+    "static/media/development.jpg": "/Portfolio/static/media/development.8d17a17a.jpg",
+    "static/media/palette.jpg": "/Portfolio/static/media/palette.b144afc7.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.a1207983.js",
+    "static/js/runtime-main.bcfc9a4f.js",
     "static/js/2.38c1df37.chunk.js",
     "static/css/main.c1a9844e.chunk.css",
-    "static/js/main.72558cd0.chunk.js"
+    "static/js/main.07283e2a.chunk.js"
   ]
 }
