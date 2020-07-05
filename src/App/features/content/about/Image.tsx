@@ -16,7 +16,7 @@ const Image = () => {
 
     return (
         <div className='myimg'>
-            <img src={img} alt='' height={windowWidth <= 580 ? '200' : '400'}  />
+            <img src={img} alt='' height={windowWidth <= 580 ? '320' : '400'}  />
         </div>
     )
 }

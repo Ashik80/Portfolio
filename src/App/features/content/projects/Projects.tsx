@@ -16,7 +16,7 @@ const Projects = () => {
     }, [])
 
     return (
-        <div style={projectStyle}>
+        <div style={projectStyle} className='project'>
             {projectArray.map((proj) => (
                 <div key={proj.id} className='project-thumbnails'>
                     <Thumbnail

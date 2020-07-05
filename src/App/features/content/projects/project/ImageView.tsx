@@ -23,7 +23,7 @@ const ImageView: React.FC<IProps> = ({ photos }) => {
             {photos.map(photo => (
                 <div key={photo.id} className='photo-container'>
                     <img
-                        src={`/img/projects/${photo.title}`}
+                        src={process.env.PUBLIC_URL + `/img/projects/${photo.title}`}
                         alt=''
                         height={width <= 580 && width > 420 ? '250'
                             : width <= 420 ? '180'

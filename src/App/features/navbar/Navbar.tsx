@@ -11,7 +11,7 @@ const Navbar = () => {
             <header className='navbar'>
                 <h3 className='logo'>Ashik</h3>
                 <ul className='nav-list'>
-                    <NavList />
+                    <NavList setToggle={setToggle} />
                 </ul>
                 <NavToggler setToggle={setToggle} />
             </header>

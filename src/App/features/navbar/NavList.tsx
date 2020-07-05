@@ -1,7 +1,11 @@
 import React, { Fragment } from 'react'
 import { NavLink, useLocation } from 'react-router-dom'
 
-const NavList = () => {
+interface IProps {
+    setToggle: (toggle: boolean) => void
+}
+
+const NavList: React.FC<IProps> = ({ setToggle }) => {
     const location = useLocation()
 
     return (
@@ -10,6 +14,7 @@ const NavList = () => {
                 <NavLink
                     to='/Portfolio/'
                     className='list-item'
+                    onClick={() => setToggle(false)}
                     style={location.pathname === '/Portfolio/' ? { color: 'grey' } : { color: 'black' }}>Projects
                 </NavLink>
             </li>
@@ -17,6 +22,7 @@ const NavList = () => {
                 <NavLink
                     to='/services'
                     className='list-item'
+                    onClick={() => setToggle(false)}
                     style={location.pathname === '/services' ? { color: 'grey' } : { color: 'black' }}>Services
                 </NavLink>
             </li>
@@ -24,6 +30,7 @@ const NavList = () => {
                 <NavLink
                     to='/about'
                     className='list-item'
+                    onClick={() => setToggle(false)}
                     style={location.pathname === '/about' ? { color: 'grey' } : { color: 'black' }}>About
                 </NavLink>
             </li>
