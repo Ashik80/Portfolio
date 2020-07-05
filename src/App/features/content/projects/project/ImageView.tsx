@@ -26,11 +26,11 @@ const ImageView: React.FC<IProps> = ({ photos }) => {
                         src={process.env.PUBLIC_URL + `/img/projects/${photo.title}`}
                         alt=''
                         height={width <= 580 && width > 420 ? '250'
-                            : width <= 420 ? '180'
+                            : width <= 420 ? '230'
                                 : '350'
                         }
                         width={width <= 580 && width > 420 ? '490'
-                            : width <= 420 ? '350'
+                            : width <= 420 ? '470'
                                 : photo.width}
                     />
                 </div>

@@ -19,7 +19,7 @@ const Project: React.FC<RouteComponentProps<IProps>> = ({ match }) => {
     }, [match.params.id])
 
     return (
-        <div>
+        <div style={{marginBottom: 70}}>
             {project && (
                 <>
                     <ImageView photos={project.photos} />
